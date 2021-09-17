@@ -1,0 +1,5 @@
+@mixin moble(){
+  @media  (max-width:768px) {
+   @content 
+  }
+}
